@@ -2,6 +2,7 @@
 %define		_module_name	slideshow
 
 Summary:	Enlightenment DR17 module: %{_module_name}
+Summary(pl):	Modu³ Enlightenmenta DR17: slideshow
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.5
 Release:	1
@@ -10,14 +11,21 @@ Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
 # Source0-md5:	fe4ec88243aa9ba3cbf052098874f048
 URL:		http://www.get-e.org/Resources/Modules/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	edje
 BuildRequires:	enlightenmentDR17-devel
+BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
 Requires:	enlightenmentDR17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Very simple Enlightenment DR17 used to change desktop backgrounds.
+Very simple Enlightenment DR17 module used to change desktop
+backgrounds.
+
+%description -l pl
+Bardzo prosty modu³ Enlightenmenta DR17 s³u¿±cy do zmiany t³a pulpitu.
 
 %prep
 %setup -q -n %{_module_name}
