@@ -4,12 +4,12 @@
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: slideshow
 Name:		enlightenment-module-%{_module_name}
-Version:	0.0.5
+Version:	0.0.7
 Release:	1
 License:	BSD-like
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
-# Source0-md5:	fe4ec88243aa9ba3cbf052098874f048
+# Source0-md5:	e20b828f71d0df75b67f63a2d9be63c8
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
