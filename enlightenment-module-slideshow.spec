@@ -2,7 +2,7 @@
 %define		_module_name	slideshow
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: slideshow
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: slideshow
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.7
 Release:	1
