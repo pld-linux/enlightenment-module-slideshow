@@ -2,7 +2,7 @@
 %define		_module_name	slideshow
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu≥ Enlightenmenta DR17: slideshow
+Summary(pl.UTF-8):   Modu≈Ç Enlightenmenta DR17: slideshow
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.7
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Very simple Enlightenment DR17 module used to change desktop
 backgrounds.
 
-%description -l pl
-Bardzo prosty modu≥ Enlightenmenta DR17 s≥uø±cy do zmiany t≥a pulpitu.
+%description -l pl.UTF-8
+Bardzo prosty modu≈Ç Enlightenmenta DR17 s≈Çu≈ºƒÖcy do zmiany t≈Ça pulpitu.
 
 %prep
 %setup -q -n %{_module_name}
